@@ -32,7 +32,7 @@ class ApartTableViewCell: UITableViewCell {
     
     func set(apartment: ApartmentModel) {
         apartImageView.image = apartment.image ?? UIImage(named: defaultImageName)
-        descriptionLabel.text = "City: \(apartment.city)\nAddress: \(apartment.address)"
+        descriptionLabel.text = "City: \(apartment.city)\nAddress:  \(apartment.address)"
     }
 }
 
